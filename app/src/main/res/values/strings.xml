@@ -1,0 +1,11 @@
+<resources>
+        <string name="app_name">Practico-David Gonzalez</string>
+        <string name="Titulo">Control de usuario</string>
+        <string name="Usuario">Usuario</string>
+        <string name="Pwd">Contraseña</string>
+        <string name="btnIngresar">Ingresar</string>
+        <string name="Bienvenido">Bienvenido</string>
+        <string name="txt_num">Numero de telefono</string>
+        <string name="btnMarcar">Marcar</string>
+        <string name="btnFin">Cerrar Sesiòn</string>
+</resources>

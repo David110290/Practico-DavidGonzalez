@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.david.practico_davidgonzalez.Segunda_Activity">
+
+
+    <TextView
+        android:id="@+id/txtBinvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/Bienvenido"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/edtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_num"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:layout_below="@+id/txtBinvenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
+    <Button
+        android:id="@+id/btnMarcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMarcar"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="348dp"
+        android:layout_alignBaseline="@+id/btnFin"
+        android:layout_alignBottom="@+id/btnFin"
+        android:layout_toLeftOf="@+id/txtBinvenido"
+        android:layout_toStartOf="@+id/txtBinvenido" />
+
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFin"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/txtBinvenido"
+        android:layout_toEndOf="@+id/txtBinvenido" />
+
+</RelativeLayout>
+
